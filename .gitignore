@@ -1,0 +1,86 @@
+# ------------------------------------------------------------
+# Embedded Systems Engineering Library
+# Ignore local, temporary and generated working files only.
+# Final PDFs are intentionally tracked with Git LFS.
+# ------------------------------------------------------------
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux / filesystem trash
+.Trash-*
+.directory
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary / backup files
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+*.log
+~$*
+
+# Python caches / local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env/
+.pytest_cache/
+.mypy_cache/
+
+# Generated build / conversion directories
+/build/
+/dist/
+/tmp/
+/temp/
+/renders/
+/rendered/
+/work/
+/_work/
+/_tmp/
+
+# Common generated review assets
+contact_sheets/
+sheets/
+
+# Archives generated for releases or transfers
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+
+# LaTeX auxiliary files (if used to generate future volumes)
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+
+# Office lock files
+~$*.docx
+~$*.xlsx
+~$*.pptx
